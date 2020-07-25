@@ -8,13 +8,18 @@ Note: Most examples here belong to LeetCode
 
 ### LeetCode
 | No. | Title | Status |
-| --- | ----- | :-----: |
+| :-: | ----- | :----: |
 | 1 | Two Sum |:o:|
 | 2 | Add Two Numbers |:o:|
 | 3 | Longest Substring Without Repeating Characters |:o:|
 | 4 | Median of Two Sorted Arrays |:x:|
 | 5 | Longest Palindromic Substring ||
-| 6 |  ||
-| 7 |  ||
+| 6 | ZigZag Conversion ||
+| 7 | Reverse Integer ||
 | 8 |  ||
+| 9 |  ||
+| 10 |  ||
+| 11 |  ||
+| 12 |  ||
+
 
