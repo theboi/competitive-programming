@@ -12,7 +12,7 @@
 #include <fstream>
 // #include <utility>
 #include <sstream>
-#include <algorithm>
+// #include <algorithm>
 // #include <vector>
 using namespace std;
 
@@ -31,21 +31,15 @@ int main()
   // std::cout << "The largest element is "  << *std::max_element(myints,myints+7) << '\n';
 
   // cout << myints;
-   int n;
-  cin >> n;
-  if (n >= 91) {
-    cout << "A*";
-  } else if (n >= 75) {
-    cout << "A";
-  } else if (n >= 60) {
-    cout << "B";
-  } else if (n >= 50) {
-    cout << "C";
-  } else if (n >= 35) {
-    cout << "D";
-  } else if (n >= 20) {
-    cout << "E";
-  } else {
-    cout << "U";
+  int n;
+  cin>>n;
+  
+  int arr[n];
+  for (int i=0;i<n;++i) {
+    cin>>arr[i];
+  }
+
+  for (int i=0;i<arr.length();++i) {
+    
   }
 }
