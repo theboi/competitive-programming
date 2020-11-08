@@ -9,20 +9,43 @@
 // #include <cstdio>
 
 #include <iostream>
-#include <utility>
+#include <fstream>
+// #include <utility>
 #include <sstream>
-#include <vector>
+#include <algorithm>
+// #include <vector>
+using namespace std;
 
-int main() {
-  // std::stringstream p("str");
-  // for (int i{0}; i<10; i++) {
+// bool myfn(int i, int j) { return i<j; }
 
-  // }
-  // return 0;
+// struct myclass {
+//   bool operator() (int i,int j) { return i<j; }
+// } myobj;
 
-  std::vector<int> a {1,2,3,4};
+int main()
+{
+  // long myints[] = {7,2,5,6,4,9};
 
-  std::cout << a[0];
+  // // using default comparison:
+  // std::cout << "The smallest element is " << *std::min_element(myints,myints+7) << '\n';
+  // std::cout << "The largest element is "  << *std::max_element(myints,myints+7) << '\n';
 
-  return 0;
+  // cout << myints;
+   int n;
+  cin >> n;
+  if (n >= 91) {
+    cout << "A*";
+  } else if (n >= 75) {
+    cout << "A";
+  } else if (n >= 60) {
+    cout << "B";
+  } else if (n >= 50) {
+    cout << "C";
+  } else if (n >= 35) {
+    cout << "D";
+  } else if (n >= 20) {
+    cout << "E";
+  } else {
+    cout << "U";
+  }
 }
