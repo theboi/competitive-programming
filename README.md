@@ -1,4 +1,4 @@
-# coding-practice-answers
+# competitive-programming
 
 My coding notes and exercises for educational learning.
 

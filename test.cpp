@@ -1,12 +1,13 @@
 #include <iostream>
-
 using namespace std;
+
 int main() {
   int h, w;
   string t;
+
   cin >> h >> w;
   cin.ignore();
-  
+
   for (int i = 0; i < h; ++i) {
     for (int i = 0; i < w; ++i) {
       t = getchar();
