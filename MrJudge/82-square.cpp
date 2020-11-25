@@ -14,7 +14,7 @@
  * 
  * Sample Input:
  * 5
- * Sample Output
+ * Sample Output:
  * *****
  * *****
  * *****
