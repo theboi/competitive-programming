@@ -2,4 +2,8 @@
 
 My coding notes and exercises for educational learning.
 
-Please do not share.
+Sources:
+
+* [HackerRank](https://www.hackerrank.com/)
+* [mrJudge](https://dunjudge.me/)
+* [LeetCode](https://leetcode.com/)
