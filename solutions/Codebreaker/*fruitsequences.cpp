@@ -1,8 +1,9 @@
 #include <iostream>
+using namespace std;
 
 int main() {
   uint32_t n;
-  std::cin>>n;
+  cin>>n;
 
   
   return 0;

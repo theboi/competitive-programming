@@ -1,7 +1,6 @@
 #include <iostream>
 #include <map>
 #include <utility>
-
 using namespace std;
 
 int main() {
@@ -15,7 +14,7 @@ int main() {
 
   for (uint32_t i = 0; i < m; ++i) {
     cin >> len[i].first;
-    len[i].second = i+1;
+    len[i].second = i + 1;
   }
 
   for (uint32_t i = 0; i < k; ++i) {
