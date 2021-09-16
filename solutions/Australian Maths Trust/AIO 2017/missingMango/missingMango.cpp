@@ -10,7 +10,7 @@ int main() {
 
   if (l1 - d1 == l2 - d2 || l1 - d1 == l2 + d2) {
     fout << l1 - d1;
-  } else if (l1 + d1 == l2 - d2 || l1 + d1 == l2 + d2) {
+  } else {
     fout << l1 + d1;
   }
   return 0;
