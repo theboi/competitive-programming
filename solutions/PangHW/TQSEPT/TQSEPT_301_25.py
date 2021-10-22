@@ -19,6 +19,11 @@ def getGrades(n):
     return "F9"
   return "Worst than FAILURE"
 
+def getGrades2(n):
+  if n >= 75: return "A1"
+  elif n < 40: return "F9"
+  return ["A2", "B3", "B4", "C5", "C6", "D7", "E8", "F9"][14-n//5]
+
 subjects = ["L1", "L2", "M1", "M2", "S1", "S2", "H1", "H2"]
 scores = []
 
